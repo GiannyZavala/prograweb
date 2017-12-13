@@ -1,0 +1,21 @@
+h1{
+    background: black;
+    color:white;
+
+}
+
+a{
+    color:cornflowerblue;
+    text-decoration:none; /*se elimina subrayado */
+}
+
+a:visited{
+    color:tomato;
+}
+
+a:hover{
+    text-decoration: underline;
+    background: black;
+    color:white;
+
+}

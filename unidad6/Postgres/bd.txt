@@ -1,0 +1,8 @@
+CREATE TABLE factura (factura_id serial NOT NULL, fecha date, cliente_id int4 NOT NULL, PRIMARY KEY (factura_id));
+CREATE TABLE cliente (cliente_id serial NOT NULL, nombrecliente varchar(100) NOT NULL, PRIMARY KEY (cliente_id));
+CREATE TABLE detallefactura (detallefactura_id serial NOT NULL, cantidad int4 NOT NULL, precioventa int4 NOT NULL, factura_id int4 NOT NULL, producto_id int4 NOT NULL, PRIMARY KEY (detallefactura_id));
+CREATE TABLE producto (producto_id serial NOT NULL, nombreproducto varchar(100) NOT NULL, precio numeric(19, 2) NOT NULL, PRIMARY KEY (producto_id));
+ALTER TABLE factura ADD CONSTRAINT FKfactura581288 FOREIGN KEY (cliente_id) REFERENCES cliente (cliente_id);
+ALTER TABLE detallefactura ADD CONSTRAINT FKdetallefac547026 FOREIGN KEY (factura_id) REFERENCES factura (factura_id);
+ALTER TABLE detallefactura ADD CONSTRAINT FKdetallefac420425 FOREIGN KEY (producto_id) REFERENCES producto (producto_id);
+

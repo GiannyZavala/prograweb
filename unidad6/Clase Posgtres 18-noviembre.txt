@@ -1,0 +1,40 @@
+CLASE 18/NOVIEMBRE
+
+Postgres es un sistema de administracion de BD de tipo objeto relacional
+
+sudo apt-get install postgresql
+
+Para ver si hay servicios de postgres corriendo
+ps -fea | grep postgres
+
+Funcion para entrar en postgres
+psql 
+
+Para entrar a la base de datos
+psql nombreBD
+
+env | grep nombreUsuario
+
+Entra psql con usuario preedefinido
+sudo -u postgres psql
+
+para salir de la terminal de postgres
+\q
+
+Para ver las BD
+\l
+
+Esto es para crear un rol, es conveniente poner el usuario de la computadora
+\create user nombreUsuario createdb password 'constraseña';
+
+Para ver los usuarios en terminal
+q
+
+Crear BD 
+create database nombreBD owner nombreUsuario
+
+Muestra las relaciones
+\d
+
+CREATE TABLE profesor (profesor_id serial NOT NULL, nmbre varchar(50), apellido varchar(50), PRIMARY KEY (profesor_id));
+NOTA: siempre se debe terminar con ';'

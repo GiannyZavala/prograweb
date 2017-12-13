@@ -1,0 +1,9 @@
+{
+	"alumnos": [
+		{"nombre": "Gianny", "semestre": 9},
+		{"nombre": "Luis", "semestre": 7 },
+		{"nombre": "Carlos","semestre":9},
+		{"nombre": "Martha","semestre":5},
+		{"nombre": "Lorena","semestre":3}
+	]
+}

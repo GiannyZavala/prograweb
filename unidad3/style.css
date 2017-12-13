@@ -1,0 +1,19 @@
+body{
+    background:lavenderblush;
+    width:800px;
+    margin: auto;
+
+}
+
+/* COMENTARIO EN CSS*/
+
+h1{
+    color: maroon;
+    text-align: center;
+}
+
+p{
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+}

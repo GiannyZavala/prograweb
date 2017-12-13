@@ -1,0 +1,27 @@
+a:hover{
+    color: dodgerblue;
+    background:black;
+}
+
+a:visited{
+    color:tomato;
+}
+
+.comment li:nth-child(1){
+    background: dodgerblue;
+}
+
+.comment li:nth-child(2){
+    background: mediumpurple;
+}
+.comment li:nth-child(3){
+    background: cyan;
+}
+
+
+p{
+    padding: 5px;
+    float: left;
+    background: lightgray;
+}
+

@@ -1,0 +1,19 @@
+h1{
+    background:black;
+    color:white;
+    text-align: center;
+}
+
+p.first{
+    color:red;
+    margin:10px;
+    padding:20px;
+
+}
+
+.second{
+    color:blue;
+    margin:100px;
+    padding:20px;
+}
+

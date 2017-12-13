@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/unidad6/server" libraries="{PrograWeb/unidad6/server/node_modules}" />
+    <file url="file://$PROJECT_DIR$/unidad6/server/app" libraries="{PrograWeb/unidad6/server/app/node_modules}" />
+  </component>
+</project>

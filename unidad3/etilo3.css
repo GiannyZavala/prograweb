@@ -1,0 +1,15 @@
+/*  <link rel="stylesheet" type="text/css" href="estilo1.css"> */
+
+
+
+p.a{
+    color:deepskyblue;
+}
+
+
+
+div p:nth-child(2), div p:nth-child(4){
+    color:purple;
+}
+
+

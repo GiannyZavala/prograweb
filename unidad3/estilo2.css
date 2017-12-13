@@ -1,0 +1,36 @@
+h1{
+    color:red;
+}
+
+h2.importante{
+    color:red;
+}
+
+div.relevante{
+    color:red;
+}
+
+div.relevante p:nth-child(1){
+    color:blue;
+}
+
+div.relevante p:nth-child(3){
+    color:blue;
+}
+
+div.relevante p:nth-child(7){
+    color:blue;
+}
+
+p{
+    color:red;
+}
+
+
+p.a{
+    color:orange;
+}
+
+div.relevante p:nth-child(2), div.relevante p:nth-child(4){
+    color:red;
+}

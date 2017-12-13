@@ -1,0 +1,22 @@
+body{
+    background: white;
+    font-family: 'Satisfy', cursive;
+}
+
+h1{
+    color: mediumblue;
+    font-size: xx-large;
+}
+
+button {
+    font-size: 10px;
+    font-family: Verdana, Helvetica;
+    font-weight: bold;
+    color: white;
+    background: royalblue;
+    border: 0px;
+    width: 80px;
+    height: 30px;
+    align:center;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background: white;
+    color:black;
+}
+
+a{
+     color:dodgerblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:tomato;
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+    background: black;
+}
+nav{
+    float:right;
+    background: gray;
+}
+
+footer{
+    background: dodgerblue;
+    clear: both;
+    text-align:center;
+}
+
+main{
+    background: lightgray;
+}

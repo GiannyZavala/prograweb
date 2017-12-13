@@ -1,0 +1,9 @@
+{
+"name":"Progra",
+"version":"0.0.1",
+"dependencies":{
+  "body-parser":"1.15.2",
+  "express":"4.12.3",
+  "mongodb":"2.1.7"
+}
+}

@@ -1,0 +1,23 @@
+body{
+    font-size: 100%;
+    /* tamaño base */
+    font-family: 'Caveat', cursive;
+}
+
+h1{
+   font-size: xx-large;
+
+    /*xx relativo al tamaño base*/
+}
+
+h2{
+    font-size: x-large;
+}
+
+.importante{
+    font-size:large;
+}
+
+.unoPuntoDos{
+    font-size: 1.2em;
+}
